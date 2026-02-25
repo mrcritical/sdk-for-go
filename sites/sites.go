@@ -3,9 +3,9 @@ package sites
 import (
 	"encoding/json"
 	"errors"
-	"github.com/appwrite/sdk-for-go/client"
-	"github.com/appwrite/sdk-for-go/models"
-	"github.com/appwrite/sdk-for-go/file"
+	"github.com/mrcritical/sdk-for-go/client"
+	"github.com/mrcritical/sdk-for-go/models"
+	"github.com/mrcritical/sdk-for-go/file"
 	"strings"
 )
 
