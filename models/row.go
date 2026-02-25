@@ -10,7 +10,7 @@ type Row struct {
     // Row ID.
     Id string `json:"$id"`
     // Row automatically incrementing ID.
-    Sequence int `json:"$sequence"`
+    Sequence json.Number `json:"$sequence"`
     // Table ID.
     TableId string `json:"$tableId"`
     // Database ID.

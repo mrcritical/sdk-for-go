@@ -10,7 +10,7 @@ type Document struct {
     // Document ID.
     Id string `json:"$id"`
     // Document automatically incrementing ID.
-    Sequence int `json:"$sequence"`
+    Sequence json.Number `json:"$sequence"`
     // Collection ID.
     CollectionId string `json:"$collectionId"`
     // Database ID.
